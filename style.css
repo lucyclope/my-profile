@@ -1,0 +1,156 @@
+
+body {
+	color:rgb(173, 190, 255);
+	background-color: #fefcf6;
+	line-height: 1.6;
+	font-family: "Crimson Text", serif;
+	font-size: 12px;
+}
+
+h1 {
+	font-weight: 400;
+	font-style: normal;
+	text-justify: center;
+	font-weight: lighter;
+	color : rgb(11, 79, 108);
+	font-size: 40px;
+	
+}
+
+h2{
+	font-weight: 400;
+	font-style: normal;
+  	font-size: 20px;
+	color : rgb(11, 79, 108)
+	
+}
+
+p,ul{
+	font-weight: 400;
+	font-style: normal;
+	color : #5e6c5b;
+	font-size: 17px;
+
+}
+
+a{
+	text-decoration: none;
+  }
+
+a:hover{
+	color : rgb(11, 79, 108);
+}
+
+.container{
+	width: 700px;
+	margin: 10px auto;
+}
+@media (max-width: 720px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 600px) {
+	.container {
+		width: 400px;
+	}
+}
+
+@media (max-width: 540) {
+	.container {
+		width: 300px;
+	}
+}
+
+.img-circle{
+	border-radius: 50px;
+	height: 300px;
+	width: 300px;
+	
+}
+
+.texte-policegrande {
+	font-family: "Sorts Mill Goudy", serif;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.texte-policemoyenne {
+	font-family: "Young Serif", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.texte-policepetite {
+	font-family: "Sorts Mill Goudy", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.texte-policeliens {
+	font-family: "Anonymous Pro", monospace;
+}
+
+
+.card-beige{
+	background-color: #f4efe6;
+	padding : 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.btn-green{
+	background-color: #5e6c5b;
+	color: #f4efe6;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-green:hover{
+	background-color: #686867;
+	color: #f4efe6;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline img {
+    width: 30px; 
+    height: 30px; 
+    object-fit: contain; 
+}
+
+.list-inline i{
+	font-size: 30px;
+	color:#5e6c5b
+}
+
+
+.list-inline i:hover{
+	color:rgb(11, 79, 108)
+}
+
+#introduction p{
+	margin-bottom: 40px;
+}
+
+
+#gobelins {
+    color: #686867;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+
+#gobelins:hover {
+    color: rgb(11, 79, 108);
+}
